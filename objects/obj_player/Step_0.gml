@@ -33,3 +33,25 @@ if (place_meeting(x, y + vsp, obj_invsWall)) {
 	vsp = 0;
 }
 y += vsp;
+
+//Animation
+if (!place_meeting(x, y + 1, obj_invsWall)) {
+	sprite_index = spr_player_air;
+	image_speed = 0;
+	if (vsp > 0) {
+		image_index = 1;
+	} else {
+		image_index = 0;
+	}
+} else {
+	image_speed = 1;
+	if (hsp == 0) {
+		sprite_index = spr_player;
+	} else {
+		sprite_index = spr_player_walk;
+	}
+}
+
+if(hsp != 0) {
+	image_xscale = sign(hsp);
+}
