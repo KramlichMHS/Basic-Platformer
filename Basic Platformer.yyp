@@ -6,6 +6,8 @@
     {"id":{"name":"spr_clouds","path":"sprites/spr_clouds/spr_clouds.yy",},"order":7,},
     {"id":{"name":"spr_walls","path":"sprites/spr_walls/spr_walls.yy",},"order":6,},
     {"id":{"name":"ts_walls","path":"tilesets/ts_walls/ts_walls.yy",},"order":0,},
+    {"id":{"name":"obj_checkpoint","path":"objects/obj_checkpoint/obj_checkpoint.yy",},"order":4,},
+    {"id":{"name":"spr_checkpoint","path":"sprites/spr_checkpoint/spr_checkpoint.yy",},"order":9,},
     {"id":{"name":"obj_invsWall","path":"objects/obj_invsWall/obj_invsWall.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_player_air","path":"sprites/spr_player_air/spr_player_air.yy",},"order":4,},
